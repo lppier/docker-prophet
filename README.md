@@ -1,7 +1,7 @@
 # Instructions to Build and Run this Image
-'''
+```
 sudo docker build --tag=prophet .
-'''
+```
 This will build a docker image that when launched will run in the background. 
 So, in order to access it : 
 '''
