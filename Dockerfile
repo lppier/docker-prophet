@@ -17,4 +17,6 @@ RUN pip install matplotlib
 RUN pip install pystan
 RUN pip install fbprophet
 
+# Following CMD keeps the container running
+# Modify CMD to run the app that you require. 
 CMD tail -f /dev/null &
