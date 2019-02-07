@@ -22,6 +22,7 @@ will run the example at the Prophet Quickstart Page : https://facebook.github.io
 sudo docker build --tag=prophet .
 ```
 This will build a docker image that when launched will run in the background. 
+You can modify the Dockerfile to include the libraries as you wish. 
 
 Enjoy!
 
